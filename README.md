@@ -59,7 +59,7 @@ The primary goal of this project is to strengthen my expertise in:
 
 - Comming soon
 
-## Terima Kasih
+## Professional Growth Impact
 
 Through this project, I strengthened my understanding of how modern CSS layout systems work in real-world UI scenarios. Using **SCSS** also helped improve my workflow efficiency, code maintainability, and styling scalability.
 
