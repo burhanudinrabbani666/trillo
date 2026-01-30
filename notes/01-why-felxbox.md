@@ -30,3 +30,5 @@
 3. **flex-grow: 0** | integer
 4. **flex-shrink: 1** | integer
 5. **flex-basis: auto** | integer
+
+[Next: Flex container](./02-flex-container.md)

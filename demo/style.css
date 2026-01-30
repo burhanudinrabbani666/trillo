@@ -1,6 +1,3 @@
-# FLEX CONTAINER
-
-```css
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +25,3 @@
 .i2 {
   height: 200px;
 }
-```
-
-[Next: Flex items](./03-flex-items.md)
