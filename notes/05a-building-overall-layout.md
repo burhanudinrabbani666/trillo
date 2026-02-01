@@ -1,3 +1,12 @@
+# BUIDLING OVERALL LAYOUT
+
+The direct children of a Flex Container (elements with display: flex or display: inline-flex set on them) become flex items.
+
+Continuous runs of text inside flex containers will also become flex items.
+
+[Flex item](https://developer.mozilla.org/en-US/docs/Glossary/Flex_Item)
+
+```scss
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -30,3 +39,6 @@
 
   //
 }
+```
+
+[Next: Building header](./06-building-header.md)
