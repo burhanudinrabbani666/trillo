@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./img/logo.png" alt="Trillo brand logo"/>
+</div>
+
 <h1 align="center">Trillo — Fictional Travel & Accommodation Platform</h1>
 
 <div align="center">
