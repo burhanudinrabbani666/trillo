@@ -1,0 +1,26 @@
+{
+  "name": "Trillo",
+  "version": "1.0.0",
+  "description": "Project for Udemy course Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann. Focus on Flexbox and Sass.",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "watch:sass": "sass ./sass/main.scss ./css/style.css -w",
+    "compile:sass": "sass ./sass/main.scss ./css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' ./css/style.comp  .css -o ./css/style.prefixed.css",
+    "compress:css": "sass ./css/style.prefixed.css ./css/style.css --style=compressed",
+    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
+  },
+  "author": "Jonas and Burhanudin Rabbani",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
+  },
+  "dependencies": {
+    "sass": "^1.97.3"
+  }
+}
