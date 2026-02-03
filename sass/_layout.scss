@@ -41,18 +41,21 @@
   display: flex;
   gap: 4.5rem;
   padding: 4.5rem;
-  background-color: var(--color-grey-light-1);
+  background-color: var(--color-grey-light-2);
   border-bottom: var(--line);
+  font-size: 1.4rem;
 }
 .description {
-  font-size: 1.4rem;
+  background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem;
   flex: 0 0 60%;
 }
 .user-review {
-  background-color: yellowgreen;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 // Paragraph
