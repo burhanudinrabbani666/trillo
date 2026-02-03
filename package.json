@@ -8,9 +8,9 @@
     "start": "npm-run-all --parallel devserver watch:sass",
     "watch:sass": "sass ./sass/main.scss ./css/style.css -w",
     "compile:sass": "sass ./sass/main.scss ./css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' ./css/style.comp  .css -o ./css/style.prefixed.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' ./css/style.comp.css -o ./css/style.prefixed.css",
     "compress:css": "sass ./css/style.prefixed.css ./css/style.css --style=compressed",
-    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "author": "Jonas and Burhanudin Rabbani",
   "license": "ISC",
